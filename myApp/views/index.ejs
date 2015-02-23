@@ -8,6 +8,14 @@
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
 
+    <h3> User Form </h3>
+    <form method="post" action="/data">
+    	Name: <input type="text" name="name"><br>
+    	Gender: <select name="gender">
+    	<option value="male"> Male </option>
+    	<option value="female"> Female </option>
+    </select><br>
+    <input type="submit" value="Save Data">
 
   </body>
 </html>
